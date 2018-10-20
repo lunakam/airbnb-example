@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  kind: MyString
+  price_per_day: 1
+  city: MyString
+
+two:
+  name: MyString
+  description: MyString
+  kind: MyString
+  price_per_day: 1
+  city: MyString

@@ -1,0 +1,7 @@
+
+<h1> Lista de lugares </h1>
+<% @places.each do |place| %>
+  <h2>  <%= place.name %> </h2>
+  <p> <%= place.description %> </p>
+  <%=  link_to "Ver lugar", controller: "places", action: "show", id: place %>
+<% end %>
